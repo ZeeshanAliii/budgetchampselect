@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="champions">
+      <a href="./katarina.html">
+        <img src="./imgs/Nines-Katarina-1.2.6.png.256x256_q95.jpg" alt="" />
+      </a>
+      <a href="./irelia.html">
+        <img src="./imgs/irelia.PNG" alt="" />
+      </a>
+      <a href="./zoe.html">
+        <img src="./imgs/unnamed.jpg" alt="" />
+      </a>
+      <a href="yasuo.html">
+        <img src="./imgs/artworks-000065334969-gmnp3t-t500x500.jpg" alt="" />
+      </a>
+      <a href="akali.html">
+        <img src="./imgs/AkaliSquare.webp" alt="" />
+      </a>
+      <a href="cass.html">
+        <img src="./imgs/cass.PNG" alt="" />
+      </a>
+      <a href="yone.html">
+        <img
+          src="./imgs/tumblr_aa31ec4c3cdd0c1aa9e558f0f5c83cac_ffcd1b80_250.jpg"
+          alt=""
+      /></a>
+      <a href="">
+        <img src="./imgs/144KWbx.png" alt="" />
+      </a>
+      <a href="">
+        <img src="./imgs/camile.PNG" alt="" />
+      </a>
+      <a href="index.html">
+        <button class="END">END</button>
+      </a>
+    </div>
+  </body>
+</html>
+<style>
+  body {
+    height: 100vh;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .champions {
+    height: 700px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+    align-content: center;
+    background-color: black;
+    border-radius: 50px;
+    padding-top: 50px;
+    position: relative;
+  }
+
+  .champions img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .END {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 0px;
+    border-radius: 0 0 30px 30px;
+    background-color: aqua;
+    font-family: sans-serif;
+    color: red;
+    cursor: pointer;
+  }
+</style>
